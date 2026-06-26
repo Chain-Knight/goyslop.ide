@@ -1,6 +1,6 @@
 # GoySlop IDE
-block coding but not as terrible  \
-TODO:
+block coding but not as terrible
+### TODO:
 - [ ] finish block connection system
 - [ ] make save system
 - [ ] make node creation system
