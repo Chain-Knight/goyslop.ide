@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://ckcikcwafgha0"]
+
+[ext_resource type="Script" uid="uid://cabkqbpky6vjb" path="res://enviroment.gd" id="1_8uh7m"]
+[ext_resource type="PackedScene" uid="uid://coaljufg64s6d" path="res://resources/elements/code_block.tscn" id="1_37kl0"]
+
+[node name="root" type="Control" unique_id=1786273097]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8uh7m")
+
+[node name="codeBlock" parent="." unique_id=505359023 instance=ExtResource("1_37kl0")]
+layout_mode = 0
+offset_left = 182.0
+offset_top = 140.0
+offset_right = 182.0
+offset_bottom = 140.0
+
+[node name="codeBlock2" parent="." unique_id=1460966275 instance=ExtResource("1_37kl0")]
+layout_mode = 0
+offset_left = 455.0
+offset_top = 221.0
+offset_right = 455.0
+offset_bottom = 221.0
